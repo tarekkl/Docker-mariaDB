@@ -3,7 +3,7 @@ services:
 
   mysql:
     image: mariadb
-    container_name: test-mysql
+    container_name: test-mysql-tarek
     #volumes:
      #  - './data/db:/var/lib/mysql:delegated'
     environment:
